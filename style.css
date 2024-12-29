@@ -1,0 +1,290 @@
+
+.text{
+    margin: 10px auto;
+   }
+   .pages-text{
+       padding: 13px 35px;
+       list-style: none;
+       cursor: pointer;
+       text-decoration: none;
+   }
+   .pages-container{
+    background-color: #18283f;
+    color: aliceblue;
+    font-family: "Kumbh Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-left:50px;
+    margin-right:50px;
+    border-radius:7px;
+  
+  }
+  .pages-text{
+    padding: 13px 35px;
+    list-style: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: aliceblue;
+  }
+   .pages-text:hover
+   {
+       box-shadow: 0px 0px 8px rgba(96, 146, 204, 0.5);
+       border-radius: 10px;
+   }
+   .products_contener{
+       display: flex;
+       flex-wrap: wrap;
+       margin-top: 20px;
+       margin-bottom: 20px;
+       justify-content: center;
+       
+   }
+
+   .t1{
+       text-decoration: none;
+   }
+   .product {
+       background-color: white;
+       padding: 5px;
+       text-align: center;
+       margin-top:40px ;
+       margin-bottom:30px;
+       margin-right: 20px;
+       margin-left: 30px;
+       width: 250px;
+       height: 390px;
+       box-shadow: 0px 5px 4px #18283f75;
+       border-bottom: 1px solid rgb(218, 212, 212);
+       border-right:1px solid rgb(207, 202, 202);
+       border-left:1px solid rgb(188, 180, 180);
+   
+   }
+   
+   .product-img {
+       width: 200px;
+       height: 200px;
+       object-fit: cover;
+       margin-bottom: 10px;
+       border-radius: 10px;
+   }
+   .product-name {
+       font-size: 18px;
+       margin: 10px 0;
+       font-family: "Kumbh Sans", sans-serif;
+   }
+   
+   .pc {
+      text-align: center;
+   }
+   .btn {
+      
+           background-color:#18283f;
+           color:aliceblue;
+           border:none;
+           font-family: "Kumbh Sans", sans-serif;
+           padding: 10px 20px;
+           margin: 5px auto;
+           border-radius: 5px;
+           cursor: pointer;
+       }
+    .btn{
+           margin: 5px auto;
+       }
+       
+   .btn1 {
+           background-color:aliceblue;
+           color:#18283f;
+           border:none;
+           font-family: "Kumbh Sans", sans-serif;
+           padding: 10px 20px;
+           margin: 5px auto;
+           border-radius: 5px;
+           border:1px solid #04203c;
+       }
+      
+   .button1{
+   
+   padding: 3px 5px;
+   margin-right:30px;
+   margin-left: 40px;
+   margin-top: 20px;
+   height: 20px;
+   width: 30px;
+   cursor: pointer;
+   font-size: 15px;
+    background-color:#18283F;
+    color: white;
+    font-family: "Kumbh Sans", sans-serif;
+   }
+   
+   .button2 {
+    padding: 3px 5px;
+    margin-right:30px;
+    margin-left: 20px;
+   margin-top: 20px;
+   height: 20px;
+   width: 30px;
+   cursor: pointer;
+   font-size:10px;
+   background-color:#333435;
+   color:white;
+   font-family: "Kumbh Sans", sans-serif;
+   
+   }
+   
+   
+   .pg-container
+   {
+       display: flex;
+       flex-direction:row;
+      
+     
+   }
+ 
+   
+   .form-text{
+       font-size:20px;
+       text-align: center;
+       color: #060606;
+   }
+   
+   .form-container{
+       background-color: aliceblue;
+       padding: 5px 0;
+       width:250px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       border:none;
+       margin-top: 30px;
+      height:500px ;
+       left:15px;
+       bottom: 2550px;
+   }
+   
+   .form{
+       text-align: center;
+   }
+   
+   .input-box{
+       height: 20px;
+       width: 170px;
+       font-size: 15px;
+       margin-left: 3px;
+       margin-right: 2px;
+       margin-top: 2px;
+       padding: 3px;
+       font-family: "Kumbh Sans", sans-serif;
+   }
+   
+   .message-box{
+       height: 40px;
+       width: 150px;
+       font-size: 16px;
+       padding:5px;
+       font-family: "Kumbh Sans", sans-serif;
+   }
+   
+   .submit-btn{
+       width: 150px;
+       height: 40px;
+       font-size: 18px;
+       background-color:#172c66;
+       color: white;
+       border: 1px solid  #172c66;;
+       margin-bottom: 15px;
+       font-family: "Kumbh Sans", sans-serif;
+       padding: 5px;
+   }
+   
+   
+   .overlay{
+       background-color: rgba(0, 0, 0, 0.6);
+       position: fixed;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       display: none;
+       justify-content: center;
+       align-items: center;
+   }
+   
+   .model{
+       background-color: #fff;
+       padding: 20px 30px;
+       border-radius: 10px;
+       position: relative;
+   }
+   
+   .model-heading{
+       font-size: 20px;
+       color:#172c66 ;
+       margin-left: 140px;
+       font-family: "Kumbh Sans", sans-serif;
+   }
+   
+   .dialog-paragraph{
+       font-size: 15px;
+       color: #172c66;
+       font-family: "Kumbh Sans", sans-serif;
+   
+   }
+   
+   .ok-btn{
+       background-color: #fff;
+       color: #172c66;
+       padding: 10px 20px;
+       border-radius: 10px;
+       font-size: 15px;
+       margin-left: 150px;
+       font-family: "Kumbh Sans", sans-serif;
+   }
+   
+   .ok-btn:hover{
+       background-color:#172c66;
+       color: #fff;
+       cursor: pointer;
+   }
+   
+   .close-icon{
+       height: 25px;
+       position: absolute;
+       right: 10px;
+       top: 10px;
+       cursor: pointer;
+   }
+   .overlay1{
+       background-color: rgba(0, 0, 0, 0.6);
+       position: fixed;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       display: none;
+       justify-content: center;
+       align-items: center;
+   }
+   .model-heading1{
+       font-size: 20px;
+       color:#172c66 ;
+       margin-left: 40px;
+       font-family: "Kumbh Sans", sans-serif;
+   }
+   .ok-btn1{
+       background-color: #fff;
+       color: #172c66;
+       padding: 10px 20px;
+       border-radius: 10px;
+       font-size: 15px;
+       margin-left: 100px;
+       font-family: "Kumbh Sans", sans-serif;
+      
+   }
+   
+   .ok-btn1:hover{
+       background-color:#172c66;
+       color: #fff;
+       cursor: pointer;
+   }
+  
